@@ -1,7 +1,7 @@
 ---
 title: "JavaScript: The Hard Parts"
 date: "2020-09-20T22:12:03.284Z"
-description: 'Lecture Notes for "JavaScript: The Parts" course by Will Sentance'
+description: 'Lecture Notes for "JavaScript: The Hard Parts" course by Will Sentance'
 ---
 
 There are two halves for JavaScript’s code execution - 
