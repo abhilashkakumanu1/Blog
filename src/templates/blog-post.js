@@ -9,7 +9,7 @@ import { rhythm, scale } from "../utils/typography"
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata?.title || `Title`
-  const { previous, next } = pageContext
+  const { previous, next, readingTime } = pageContext
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -35,7 +35,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
               marginBottom: rhythm(1),
             }}
           >
-            {post.frontmatter.date}
+            {post.frontmatter.date} - {readingTime}
           </p>
         </header>
         <section
