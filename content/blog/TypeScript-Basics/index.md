@@ -1,6 +1,6 @@
 ---
 title: "TypeScript Basics"
-date: "2020-09-20T22:12:03.284Z"
+date: "2020-09-28T22:12:03.284Z"
 description: 'Lecture Notes for "TypeScript Course for Beginners" course by maximilian schwarzmüller'
 ---
 
